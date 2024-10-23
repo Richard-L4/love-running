@@ -90,8 +90,18 @@ main {
     /* let main element take up any space*/
 }
 /*footer*/
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-neworks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query: tablets and larger devices above 768px */
